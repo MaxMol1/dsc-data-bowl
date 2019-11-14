@@ -1,3 +1,4 @@
 # Don't track content
 
-notebook/.ipynb_checkpoints
+./data/*
+

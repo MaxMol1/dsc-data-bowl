@@ -374,8 +374,3 @@ class NflFeatureEng:
                 self.engineerDefendersInTheBox_vs_Distance()
 
         return self.data
-
-nfl = pd.read_csv('~/Downloads/UC Davis Exchange/dsc-data-bowl/data/train.csv')
-
-engineer = NflFeatureEng(nfl)
-engineer.engineer()
